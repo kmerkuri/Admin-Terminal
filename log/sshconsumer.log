@@ -1,0 +1,17 @@
+2019-11-11 17:21:22 [interactive DEBUG] close threading
+2019-11-11 17:21:22 [interactive DEBUG] close ssh session
+2019-11-11 17:23:36 [interactive DEBUG] close threading
+2019-11-11 17:23:36 [interactive DEBUG] close ssh session
+2019-11-11 17:25:48 [interactive DEBUG] close threading
+2019-11-11 17:25:48 [interactive DEBUG] close ssh session
+2019-11-11 17:30:00 [interactive DEBUG] close threading
+2019-11-11 17:30:00 [interactive DEBUG] close ssh session
+2019-11-11 17:31:09 [interactive DEBUG] close threading
+2019-11-11 17:31:09 [interactive DEBUG] close ssh session
+2019-11-11 17:36:46 [interactive DEBUG] close threading
+2019-11-11 17:36:46 [interactive DEBUG] close ssh session
+2019-11-11 17:41:27 [interactive DEBUG] close threading
+2019-11-11 17:41:27 [interactive DEBUG] close ssh session
+2019-11-11 17:41:30 [consumers DEBUG] receive data [u'register', u'192.168.1.179', 90, 40, u'1', u'klevi-1921681179-klevi-hyfahigyhkflvdv']
+2019-11-11 17:44:38 [interactive DEBUG] close threading
+2019-11-11 17:44:38 [interactive DEBUG] close ssh session

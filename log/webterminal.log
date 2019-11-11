@@ -1,0 +1,302 @@
+2019-11-10 22:11:29 [base WARNING] Not Found: /favicon.ico
+2019-11-10 22:11:34 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:12:05 [views ERROR] user:klevi have not permission to visit command execute page!
+2019-11-10 22:12:07 [views ERROR] user:klevi have not permission to visit batch command execute page!
+2019-11-10 22:12:43 [views ERROR] user:klevi have not permission to visit command execute page!
+2019-11-10 22:12:46 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:15:41 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:17:23 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:19:52 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:20:15 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:23:22 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:23:31 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:24:57 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:26:23 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:26:34 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:26:53 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:27:52 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:28:14 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:32:47 [base WARNING] Not Found: /favicon.ico
+2019-11-10 22:35:21 [base WARNING] Not Found: /favicon.ico
+2019-11-10 22:36:57 [base WARNING] Not Found: /favicon.ico
+2019-11-10 22:37:39 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:41:04 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:44:24 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:46:29 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:54:50 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:58:08 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 22:59:01 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 23:00:41 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 23:00:45 [views ERROR] user:klevi have not permission to visit webterminal!
+2019-11-10 23:04:10 [exception ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py", line 25, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 211, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 519, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 68, in get
+    return self._session.get(key, default)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+2019-11-10 23:04:11 [exception ERROR] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py", line 25, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 211, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 519, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 68, in get
+    return self._session.get(key, default)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+2019-11-10 23:04:25 [exception ERROR] Internal Server Error: /common/grouplist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py", line 25, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 211, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 519, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 68, in get
+    return self._session.get(key, default)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+2019-11-10 23:04:25 [exception ERROR] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py", line 25, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 211, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 519, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 68, in get
+    return self._session.get(key, default)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+2019-11-10 23:04:27 [exception ERROR] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py", line 25, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 211, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 519, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 68, in get
+    return self._session.get(key, default)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+2019-11-10 23:04:28 [exception ERROR] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py", line 25, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 211, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 519, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 68, in get
+    return self._session.get(key, default)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 374, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1121, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 887, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+2019-11-11 16:58:29 [base WARNING] Not Found: /favicon.ico
+2019-11-11 17:00:07 [views ERROR] user:klevi have not permission to visit webterminal!
